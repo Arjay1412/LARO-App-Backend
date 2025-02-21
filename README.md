@@ -167,7 +167,7 @@ git push origin feature/invite-interface
 ---
 
 ## 📢 **Contact & Support**
-For questions or suggestions, open an [Issue](https://github.com/LARO-App-Team/LARO-App/issues) or contact the team via the designated communication channel.
+For questions or suggestions, open an [Issue](https://github.com/EjLaquiorez/LARO-App/issues) or contact the team via the designated communication channel.
 
 ---
 
