@@ -1,36 +1,96 @@
-# LARO  
+# 📱 LARO App
 
-**LARO** is a basketball matchmaking app specifically designed for Filipino players. It serves as a comprehensive platform that allows users to connect with other players, check court availability, and organize games easily. With a focus on fostering community and promoting basketball, LARO leverages technology to solve common challenges in organizing games.  
-
-Whether you're a casual player looking for a quick game or a competitive athlete seeking equally skilled teammates, **LARO** ensures a seamless matchmaking experience tailored to the needs of basketball enthusiasts in the Philippines.
+> *Find basketball teams and games effortlessly!*
 
 ---
 
-## Description  
-
-Basketball is more than a sport in the Philippines; it's a shared passion that unites communities. However, organizing games can often be a challenge due to mismatched skill levels, uncoordinated schedules, and difficulties finding available courts.  
-
-**LARO** addresses these pain points by providing:  
-- A **player matchmaking system** to connect players based on skill level, location, and availability.  
-- A **court availability tracker** to make booking and finding venues easier.  
-- A platform for fostering **team spirit and community-building**, creating a more enjoyable basketball experience for everyone.  
-
-Inspired by the success of localized apps like **Kalaro** in the esports industry, **LARO** applies similar principles to basketball, empowering users with tools to enjoy their favorite sport anytime, anywhere.
+## 🚀 Project Overview
+**LARO** is a matchmaking app for basketball players to find teams and organize games. It allows team captains to invite other teams, schedule matches, and coordinate effortlessly.
 
 ---
 
-## Features  
-
-- **Player Matchmaking**: Efficiently match with other players based on location, skill level, and availability.  
-- **Court Reservations**: View nearby courts and book schedules in real-time.  
-- **User Profiles**: Create profiles, track your stats, and build your basketball network.  
-- **Community Interaction**: Organize pick-up games, form teams, or join existing matches.  
-- **Localized Experience**: Designed to cater specifically to Filipino basketball culture.  
+## 🛠️ Tech Stack
+- **Frontend:** Flutter
+- **Version Control:** GitHub
+- **Collaboration:** GitHub Projects & Issues
 
 ---
 
-## Installation  
+## 📂 Project Structure
+```
+LARO-App/
+├── lib/
+│   ├── screens/
+│   ├── widgets/
+│   ├── models/
+│   └── main.dart
+├── assets/
+├── pubspec.yaml
+└── README.md
+```
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/EjLaquiorez/LARO.git
+---
+
+## 🌳 Branching Strategy
+- `main`: Production-ready code  
+- `develop`: Latest development code  
+- `feature/<feature-name>`: New features  
+- `bugfix/<bug-description>`: Bug fixes  
+- `hotfix/<hotfix-description>`: Urgent fixes  
+- `release/<version>`: Release preparation  
+
+Example: `feature/invite-interface`, `bugfix/fix-invite-link`
+
+---
+
+## ✍️ Commit Message Convention
+```
+<type>(<scope>): <short description>
+
+[Optional body for details]
+```
+**Types:** feat, fix, docs, style, refactor, test, chore  
+**Example:** `feat(invite): add date and location fields to invite interface`
+
+---
+
+## 🔄 How to Contribute
+### 1. Clone the Repository
+```bash
+git clone https://github.com/LARO-App-Team/LARO-App.git
+cd LARO-App
+```
+
+### 2. Create a Branch
+```bash
+git checkout -b feature/invite-interface
+```
+
+### 3. Make Changes & Commit
+```bash
+git add .
+git commit -m "feat(invite): implement invite interface with date and time"
+```
+
+### 4. Push and Create a Pull Request
+```bash
+git push origin feature/invite-interface
+```
+Go to GitHub → Create Pull Request → Select `develop` as base branch.
+
+---
+
+## 📅 Project Management
+- Use **GitHub Projects** for task tracking.
+- Issues should have labels: `enhancement`, `bug`, `question`.
+- PRs require at least **2 approvals** before merging.
+
+---
+
+## 📢 Contact & Support
+For questions, open an [Issue](https://github.com/LARO-App-Team/LARO-App/issues) or reach out to the team via project channels.
+
+---
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
