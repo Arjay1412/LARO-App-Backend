@@ -1,23 +1,20 @@
+# FRONTEND - LARO App
 
----
-
-### 📝 **BACKEND/README.md Template** *(for backend setup - Node.js example)*  
-
-```markdown
-# BACKEND - LARO App
-
-This folder contains the backend code for the **LARO app**, responsible for handling APIs, database operations, and authentication.
+This folder contains the frontend code for the **LARO app** built with **Flutter**.  
+It handles the user interface and user experience of the application.
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-- Database (e.g., MongoDB, MySQL)
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Dart SDK](https://dart.dev/get-dart)
+- Android Studio or Xcode for emulators (or a physical device)
+- Code editor (e.g., VS Code)
 
 ### Installation
-1. Navigate to the backend folder:
+1. Clone the repository:
    ```bash
-   cd LARO-app/BACKEND
+   git clone https://github.com/EjLaquiorez/LARO-app.git
+   cd LARO-app/FRONTEND
