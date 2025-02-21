@@ -1,51 +1,54 @@
-# 🏀 **LARO App**
-> *Find basketball teams and organize games effortlessly.*
+# LARO-App 🏀
 
----
+## 📱 Project Overview
+**LARO** is a basketball matchmaking app designed to connect players with teams and schedule games effortlessly. Built as a cross-platform solution, it features player matchmaking, team management, and game invitations with details like date, time, and location.
 
-## 📖 **Table of Contents**
-- [🚀 Project Overview](#-project-overview)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [📂 Project Structure](#-project-structure)
-- [🌳 Branching Strategy](#-branching-strategy)
-- [✍️ Commit Message Guidelines](#️-commit-message-guidelines)
-- [🔄 Contribution Workflow](#-contribution-workflow)
-- [✅ Pull Request Process](#-pull-request-process)
-- [📅 Project Management](#-project-management)
-- [📢 Contact & Support](#-contact--support)
-- [📄 License](#-license)
+## 🛠️ Tech Stack
+- **Frontend:** Flutter (Dart)
+- **Backend:** Node.js (Express.js) with MongoDB
+- **Version Control:** Git & GitHub
+- **UI/UX Design:** Figma
+- **Authentication:** JWT & OAuth2
+- **API Documentation:** Swagger
 
----
-
-## 🚀 **Project Overview**
-**LARO** is a matchmaking app designed to connect basketball players and teams, making it easy to schedule and organize games. Key features include:
-- Team creation and management.
-- Game invites with date, time, location, and type.
-- Invite sharing via links or QR codes.
-- Player profiles and match history.
-
----
-
-## 🛠️ **Tech Stack**
-- **Frontend:** Flutter 🐦
-- **Version Control:** GitHub 🗂️
-- **Collaboration:** GitHub Projects & Issues 📋
-
----
-
-## 📂 **Project Structure**
-```plaintext
-LARO-App/
-├── lib/
-│   ├── screens/          # App screens (home, invite, profile, etc.)
-│   ├── widgets/          # Reusable components
-│   ├── models/           # Data models (User, Game, Team)
-│   ├── services/         # API and data handling
-│   └── main.dart         # App entry point
-├── assets/               # Images, fonts, and other resources
-├── pubspec.yaml          # Dependencies and configurations
-└── README.md             # Project documentation
+## 📂 Repository Structure
 ```
+LARO-App/
+├── frontend/       # Flutter app source code
+├── backend/        # Node.js backend services
+└── docs/           # Documentation (Gantt chart, use case diagrams, etc.)
+```
+
+## 🚀 Getting Started
+### Prerequisites
+- [Flutter](https://flutter.dev/docs/get-started/install) (for frontend)
+- [Node.js](https://nodejs.org/) & [MongoDB](https://www.mongodb.com/) (for backend)
+- Git installed
+
+### Setup Instructions
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/EjLaquiorez/LARO-App.git
+   cd LARO-App
+   ```
+
+2. **Frontend Setup:**
+   ```bash
+   cd frontend
+   flutter pub get
+   flutter run
+   ```
+
+3. **Backend Setup:**
+   ```bash
+   cd backend
+   npm install
+   cp .env.example .env  # Add necessary environment variables
+   npm run dev
+   ```
+
+4. **API Documentation:**
+   Access Swagger UI at `http://localhost:5000/api-docs`.
 
 ---
 
@@ -57,12 +60,12 @@ We follow the **Git Flow** methodology for organized collaboration.
 - `develop`: Latest stable development code *(Merge feature branches here)*
 
 ### 🛠️ **Supporting Branches:**
-| Branch Type | Naming Convention          | Purpose                      |
-|-------------|----------------------------|------------------------------|
-| Feature     | `feature/<feature-name>`    | New features                 |
-| Bugfix      | `bugfix/<bug-description>`  | Fixes for non-critical bugs  |
-| Hotfix      | `hotfix/<hotfix-description>`| Urgent fixes on production  |
-| Release     | `release/<version>`         | Preparing for a new release  |
+| Branch Type | Naming Convention            | Purpose                      |
+|-------------|------------------------------|------------------------------|
+| Feature     | `feature/<feature-name>`     | New features                 |
+| Bugfix      | `bugfix/<bug-description>`   | Fixes for non-critical bugs  |
+| Hotfix      | `hotfix/<hotfix-description>`| Urgent fixes on production   |
+| Release     | `release/<version>`          | Preparing for a new release  |
 
 #### 📌 **Examples:**
 - `feature/invite-interface` - Adding invite functionalities.
@@ -81,13 +84,13 @@ Keep commits **clear, concise, and descriptive** using the following convention:
 ```
 
 ### ✅ **Commit Types:**
-- `feat`: New features
-- `fix`: Bug fixes
-- `docs`: Documentation updates
-- `style`: Code style changes (no logic changes)
-- `refactor`: Code restructuring without functional changes
-- `test`: Adding or modifying tests
-- `chore`: Minor updates (build process, dependencies)
+- `feat`: New features  
+- `fix`: Bug fixes  
+- `docs`: Documentation updates  
+- `style`: Code style changes (no logic changes)  
+- `refactor`: Code restructuring without functional changes  
+- `test`: Adding or modifying tests  
+- `chore`: Minor updates (build process, dependencies)  
 
 ### 📝 **Examples:**
 - `feat(invite): add date and location fields to invite interface`
@@ -103,7 +106,7 @@ Follow these steps to contribute effectively:
 
 ### 1️⃣ **Clone the Repository:**
 ```bash
-git clone https://github.com/LARO-App-Team/LARO-App.git
+git clone https://github.com/EjLaquiorez/LARO-App.git
 cd LARO-App
 ```
 
@@ -170,3 +173,7 @@ For questions or suggestions, open an [Issue](https://github.com/LARO-App-Team/L
 
 ## 📄 **License**
 This project is licensed under the [MIT License](LICENSE).
+
+---
+🚀 *Play together, compete better with LARO!* 🏀
+
